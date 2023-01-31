@@ -1,0 +1,110 @@
+<html>
+   <head>
+      <title>Login page</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?fonts-family=Sans-serif">
+      <script src="F:\Abhi\Unicone Icecream\Home.js"></script>
+      <style>
+         *{
+            font-family:Sans-serif;
+         }
+         body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+         }
+         #login{
+            width:400px;
+            height:450px;
+            background-color: rgba(202, 186, 186, 0.41);
+            border-radius:10px;
+            box-shadow: 0 6px 20px 0 teal;
+         }
+         #logintext{
+            text-align:center;
+            color:rgb(32, 32, 68);
+         }
+         #fill{
+            margin-left:10%;
+            font-size:18px;
+            font-weight:normal;
+            color:rgb(32, 32, 68);
+         }
+         #fillemail, #fillpass{
+            margin-left:10%;
+            width:80%;
+            height:8%;
+            background-color:transparent;
+            border:none;
+            border-bottom:solid 1px rgb(32, 32, 68);
+         }
+         #fillemail, #fillpass:focus{
+            outline:none;
+         }
+         #forgot-pass{
+            text-decoration:none;
+            margin-left:10%;
+            color:crimson;
+         }
+         #login-btn{
+            margin-left:10%;
+            width:80%;
+            height:8%;
+            background-color:rgb(32, 32, 68);
+            color:white;
+            border:none;
+            border-radius: 10px;
+         }
+         #signup{
+            text-align:center;
+         }
+         #signuplink{
+            text-decoration:none;
+            color:crimson;
+         }
+         span{
+            margin-left: 10%;
+            color:red;
+            width:80%;
+            height:5%;
+         }
+         #bgimg{
+            width:50%;
+            height:750px;
+            position: fixed;
+            top:0;
+            z-index: -1;
+            opacity:0.7;
+         }
+      </style>
+      
+   </head>
+   <body>
+      <img src="F:\Abhi\Unicone Icecream\media\ice cream logo.jpg" id="bgimg">
+      <br>
+      <form id="login">
+         <br>
+         <h1 id="logintext">Login Form</h1>
+         <b id="fill">Email:</b>
+         <br>
+         <input type="email" name="email" id="fillemail">
+         <br>
+         <span id="spnemail"></span>
+         <br>
+         <br>
+         <b id="fill">Password:</b>
+         <br>
+         <input type="password" name="password" id="fillpass">
+         <br>
+         <span id="spnpass"></span>
+         <br>
+         <br>
+         <a href="#" id="forgot-pass">Forgot Password?</a>
+         <br>
+         <br>
+         <input type="button"  name="login" id="login-btn" onclick="LoginValidation()" value="LOGIN">
+         <br>
+         <br>
+         <p id="signup">Not a member? <a href="F:\Abhi\Unicone Icecream\Signup.html" id="signuplink">Signup now</a></p>
+      </form>
+   </body>
+</html>

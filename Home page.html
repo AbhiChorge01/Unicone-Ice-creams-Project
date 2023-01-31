@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.unicone_icecreams.com</title>
+        <link rel="website icon" href="F:\Abhi\Unicone Icecream\media\ice cream logo.jpg" type="jpg">
+        <link rel="stylesheet" href="F:\Abhi\Unicone Icecream\Home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sans-serif">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Segoe Print">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a799055b59.js" crossorigin="anonymous"></script>
+        <script src="F:\Abhi\Unicone Icecream\Home.js"></script>
+    </head>
+    <body>
+        <nav class="navbar nav-expand-lg fixed-top position-relative" id="home">
+            <img src="F:\Abhi\Unicone Icecream\media\ice cream logo.jpg" id="logo" class="position-absolute top-0" alt="">
+            <b id="title" class="fs-1">Unicone</b>
+            <div id="navbar" class="position-absolute top-25 end-0 w-50 text-center">
+                <a href="#home" class="text-decoration-none" id="navbar_content">Home</a>
+                <span id="navbar_content_span">|</span>
+                <a href="#aboutus" class="text-decoration-none" id="navbar_content">About</a>
+                <span id="navbar_content_span">|</span>
+                <div id="dropdown">
+                    <button id="dropbtn">Products</button>
+                    <div id="dropdown-content">
+                      <a href="#ice-cream_cone" value="Ice-cream">Ice-cream</a>
+                      <a href="#ice_candy" value="Ice Candy">Ice Candy</a>
+                      <a href="#kulfi" value="Kulfi">Kulfi</a>
+                      <a href="#matka_kulfi" value="Matka Kulfi">Matka Kulfi</a>
+                    </div>
+                  </div>
+                <span id="navbar_content_span">|</span>
+                <a href="#contact" class="text-decoration-none" id="navbar_content">Contact</a>
+                <span id="navbar_content_span">|</span>
+                <a href="F:\Abhi\Unicone Icecream\Signup.html" class="text-decoration-none" id="navbar_content"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </nav>
+        <section id="carouselimg" class="w-100 p-0">
+            <div id="carouselSlide" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" id="indicators" data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" id="indicators" data-bs-target="#carouselSlide" data-bs-slide-to="1"></button>
+                    <button type="button" id="indicators" data-bs-target="#carouselSlide" data-bs-slide-to="2"></button>
+                    <button type="button" id="indicators" data-bs-target="#carouselSlide" data-bs-slide-to="3"></button>
+                    <button type="button" id="indicators" data-bs-target="#carouselSlide" data-bs-slide-to="4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="F:\Abhi\Unicone Icecream\media\img 1.jpg" style="height:700px" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="F:\Abhi\Unicone Icecream\media\img 2.jpg" style="height:700px" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="F:\Abhi\Unicone Icecream\media\img 3.jpg" style="height:700px" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="F:\Abhi\Unicone Icecream\media\img 4.webp" style="height:700px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="F:\Abhi\Unicone Icecream\media\img 5.jpg" style="height:700px" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" id="controlicons"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" id="controlicons"></span>
+                </button>
+            </div>
+        </section>
+        <article id="aboutus" class="position-relative">
+            <b class="text-center border-bottom border-3 rounded-3 fs-1" id="heading">About Us</b>
+            <div id="banner">
+                <div id="bannercontent">
+                    <b id="bannerhead1">Eat Today</b>
+                    <br>
+                    <b id="bannerhead2">Live Another Day</b>
+                    <br>
+                    <b id="bannerhead3">Order Now!!!</b>
+                </div>
+                <img src="F:\Abhi\Unicone Icecream\media\banner.jpg" id="bannerimg" alt="">
+            </div>
+            
+                <div class="row" id="outergrid">
+                    <div class="col" id="grid">
+                        <div id="innergrid">
+                            <div id="innergridcontent">
+                                <img src="F:\Abhi\Unicone Icecream\media\delivery.jpg" id="innergridimg" alt="">&nbsp&nbsp
+                                <b id="innergridtext">Fastest Delivery</b>
+                                <br><br>
+                                <p id="innergridpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis commodi deleniti ducimus, impedit at cupiditate eos ipsum, reiciendis itaque amet! Delectus blanditiis saepe aliquid laborum asperiores amet alias nihil.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="grid">
+                        <div id="innergrid">
+                            <div id="innergridcontent">
+                                <img src="F:\Abhi\Unicone Icecream\media\choose.png" id="innergridimg" alt="">&nbsp&nbsp
+                                <b id="innergridtext">So Much to Choose</b>
+                                <br><br>
+                                <p id="innergridpara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis commodi deleniti ducimus, impedit at cupiditate eos ipsum, reiciendis itaque amet! Delectus blanditiis saepe aliquid laborum asperiores amet alias nihil.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="grid"><div id="innergrid">
+                        <div id="innergridcontent">
+                            <img src="F:\Abhi\Unicone Icecream\media\offer.jpg" id="innergridimg" alt="">&nbsp&nbsp
+                            <b id="innergridtext">Best Offers Every Week</b>
+                            <br><br>
+                            <p id="innergridpara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis commodi deleniti ducimus, impedit at cupiditate eos ipsum, reiciendis itaque amet! Delectus blanditiis saepe aliquid laborum asperiores amet alias nihil.
+                            </p>
+                        </div>
+                    </div></div>
+                </div>
+            
+        </article>
+
+        
+        <div id="headingdiv">
+            <b class="text-center border-bottom border-3 rounded-3 fs-1" id="heading">Products</b>
+        </div>
+        <br>
+        <section id="products" class="w-100 p-0 position-relative">
+
+            <div id="productitems">
+                        <div id="ice-cream_cone">
+                            <b class="text-center fs-1" id="productitemheading">Ice-cream Flavours</b><hr id="hr">
+                            <div class="container text-center">
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">French Vanila</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Strawberry Cheesecake</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chocolate</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Mint Chocolate Chip</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>    
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Pistachio</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Butter Scotch</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Cotton Candy</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>    
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Watermelon</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Bubblegum</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Tutti Futti</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chocolate Chip</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice cream flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Rocky Road</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 100/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div id="ice_candy">
+                            <b class="text-center fs-1" id="productitemheading">Ice Candy Flavours</b><hr id="hr">
+                            <div class="container text-center">
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Orange</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Mango</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Kala Khatta</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chocobite</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>    
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Raspberry</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Pineapple</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Grape</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Kacchi Kairi</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Blue Lagoon</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Watermelon</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Lychee</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\ice candy flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Black Currant</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 50/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="kulfi">
+                            <b class="text-center fs-1" id="productitemheading">Kulfi Flavours</b><hr id="hr">
+                            <div class="container text-center">
+                                <div class="row" id="gridrow">
+                    
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Malai</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Strawberry</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chocolate</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Kesar Pista</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>    
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Butter Scotch</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Black Currant</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Cassata</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Guava</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chikoo</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Gulkand</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Mango</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\kulfi flavour.png" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Rose Almond</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 70/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="matka_kulfi">
+                            <b class="text-center fs-1" id="productitemheading">Matka Kulfi Flavours</b><hr id="hr">
+                            <div class="container text-center">
+                                <div class="row" id="gridrow">
+                    
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Malai</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Strawberry</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chocolate</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Kesar Pista</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>    
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Butter Scotch</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Black Currant</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Cassata</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Guava</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="row" id="gridrow">
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Chikoo</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Gulkand</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Mango</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    <div class="col" id="flavours">
+                                        <img src="F:\Abhi\Unicone Icecream\media\matka kulfi flavour.jpg" id="flavoursimg" alt="">
+                                        <br><br>
+                                        <b id="flavoursname">Rose Almond</b>
+                                        <br>
+                                        <b id="flavoursprize"><i class="fa-solid fa-indian-rupee-sign"></i> 150/-</b>
+                                        <button type="button" id="orderbtn">Order Now</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+            </div>
+        </section>
+        <footer id="contact" class="w-100 position-relative">
+            <p class="text-center"><b class="border-bottom border-3 rounded-3 fs-1" id="contactheading">Contact</b></p>
+            <br>
+            <div id="contactoutergrid">
+                <div class="row align-items-start container" id="contactgrid">
+                    <div class="col container" id="contactinnergrid">
+                        <dl>
+                            <dt> <h3>Contact us:</h3>
+                                <dd><i class="fa-regular fa-envelope"></i> unicone@gmail.com</dd>
+                                <dd><i class="fa-solid fa-phone"></i> +91 87428 76278 / +91 96873 82473</dd>
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="col container" id="contactinnergrid">
+                        <dl>
+                            <dt> <h3>Cities we serve:</h3>
+                                <dd>Ahmedabad</dd>	
+                                <dd>Kochi</dd>
+                                <dd>Banglore</dd>
+                                <dd>Kolkata</dd>
+                                <dd>Chandigarh</dd>
+                                <dd>Lucknow</dd>
+                                <dd>Chennai</dd>
+                                <dd>Mumbai</dd>
+                                <dd>Delhi</dd>
+                                <dd>Noida</dd>
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="col container" id="contactinnergrid">
+                        <dl>
+                            <dt> <h3>Follow us:</h3>
+                                <dd>
+                                    <a href="#"><i class="fa-brands fa-instagram" id="socialmediaicons"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"  id="socialmediaicons"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook" id="socialmediaicons"></i></a>
+                                    <a href="#"><i class="fa-brands fa-snapchat" id="socialmediaicons"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin" id="socialmediaicons"></i></a>
+                                </dd>	
+                            </dt>
+                        </dl>
+                    </div>
+                </div>  
+            </div>
+        </footer>
+    </body>
+</html>
